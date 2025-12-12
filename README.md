@@ -19,6 +19,10 @@ This README lists useful terminal commands useful for django project. Commands a
 - `deactivate` — Deactivate the current virtual environment.
 - `python3 manage.py startapp about` — Create `about` app.
 - `pip3 freeze --local > requirements.txt` — Export the current environment dependencies.
+- `cat ./requirements.txt` — Display the contents of requirements.txt.
+- `python3 manage.py runserver` — Start the development server.
+- `django-admin version` — Display installed Django version.
+- `pip3 list` — List all installed packages in the environment.
 
 ## Filesystem Operations
 

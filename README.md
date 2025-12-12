@@ -17,7 +17,7 @@ This README lists useful terminal commands useful for django project. Commands a
 - `source .venv/bin/activate` — Activate virtualenv (bash/zsh).
 - `. .venv/bin/activate` — Activate virtualenv (POSIX shell shorthand).
 - `deactivate` — Deactivate the current virtual environment.
-- `django-admin startproject <project_name>` — Create a new Django project.
+- `django-admin startproject <project_name> .` — Create a new Django project in current directory.
 - `python3 manage.py startapp about` — Create `about` app.
 - `pip3 freeze --local > requirements.txt` — Export the current environment dependencies.
 - `cat ./requirements.txt` — Display the contents of requirements.txt.
